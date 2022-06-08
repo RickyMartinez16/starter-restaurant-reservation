@@ -66,6 +66,16 @@ You can create a new reservation by selecting "New Reservation in the nav bar. T
 
 ![Create Res Form](/images/us-01-cancel-before.png)
 
+## Managing Reservations
+
+You can manage all reservations on the Dashboard
+
+The dashboard will list the reservations for today. You can access future or past reservations by using the "Next" and "Previous" buttons. 
+
+
+![dashboard](/images/us-06-dashboard-displays-status.png)
+
+
 # API
 
 ## Create Reservation
