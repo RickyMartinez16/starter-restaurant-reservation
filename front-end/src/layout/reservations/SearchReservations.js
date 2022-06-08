@@ -55,10 +55,10 @@ function SearchReservations() {
 
   return (
     <div className="container fluid mt-3">
-      <p className="h2 text-center">Search for Reservation by Mobile Number</p>
+      <p className="h2 text-center">Search for Reservation </p>
       <form className="d-flex flex-column my-4" onSubmit={handleSubmit}>
         <label htmlFor="mobile_number">
-          Enter Mobile Number (partial or complete):
+          Enter Mobile Number:
           <input
             className="form-control my-2"
             name="mobile_number"
@@ -66,7 +66,7 @@ function SearchReservations() {
             onChange={handleChange}
           />
         </label>
-        <button className="btn btn-info" type="submit">
+        <button className="btn btn-primary" type="submit">
           Find
         </button>
       </form>

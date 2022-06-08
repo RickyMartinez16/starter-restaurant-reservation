@@ -25,7 +25,7 @@ function ReservationView({ reservation }) {
   }
 
   return (
-    <div className="border d-flex flex-column align-items-center p-2">
+    <div className="border border-primary rounded-pill d-flex flex-column align-items-center p-2" style={{ backgroundColor: "#EC7063" }}>
       <p data-reservation-id-status={reservation.reservation_id}>
         {reservation.status}
       </p>
@@ -49,7 +49,7 @@ function ReservationView({ reservation }) {
             </a>
           </button>
         ) : null}
-        <button className="btn btn-warning px-3 py-2">
+        <button className="btn btn-secondary px-3 py-2">
           <a
             href={`/reservations/${reservation.reservation_id}/edit`}
             style={{ color: "white", textDecoration: "none" }}

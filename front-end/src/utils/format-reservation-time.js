@@ -1,6 +1,8 @@
+
+   
 import { formatAsTime } from "./date-time";
 
-function formatTime(reservation) {
+export function formatTime(reservation) {
   reservation.reservation_time = formatAsTime(reservation.reservation_time);
   return reservation;
 }

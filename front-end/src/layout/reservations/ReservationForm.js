@@ -74,7 +74,7 @@ function ReservationForm({ form, handleChange, handleSubmit }) {
         />
       </label>
       <div className="d-flex justify-content-around m-3">
-        <button className="btn btn-success" type="submit">
+        <button className="btn btn-primary" type="submit">
           Submit
         </button>
         <button className="btn btn-danger" onClick={() => history.goBack()}>
