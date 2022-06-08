@@ -1,20 +1,24 @@
-# The Good Table
+# Reservation Table System
 
-### Website URL: https://restaurant-client-cs.herokuapp.com/dashboard
+### Website URL: 
 
-The Good Table is a restaurant schedule management application that allows the user to manage their restaurant's reservations and tables. They are able to add new reservations to certain dates and times, as well as create tables with a desired capacity to seat their customers at.
+The Reservation Table system is a restaurant schedule management application that allows the user to manage their restaurant's reservations and tables. Users have the ability to add/delete reservations aswell as create new tables with different capacites to fit their guests. 
 
 ## Technologies Used
 ### Front End
 - React.js
 - Bootstrap
 - CSS
+- HTML/JSX
+- React Router
+- React Hooks
 
 ### Back End
 - Node.js
 - Express.js
 - PostgreSQL 
 - Knex.js
+- CORS
 
 ## Installation
 1. Fork and clone this repository.
