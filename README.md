@@ -1,29 +1,46 @@
-# Capstone: Restaurant Reservation System
+# The Good Table
 
-> You have been hired as a full stack developer at _Periodic Tables_, a startup that is creating a reservation system for fine dining restaurants.
-> The software is used only by restaurant personnel when a customer calls to request a reservation.
-> At this point, the customers will not access the system online.
+### Website URL: https://restaurant-client-cs.herokuapp.com/dashboard
 
-There are no user stories for deployment: it is expected that you will deploy the application to production after you finish a user story.
+The Good Table is a restaurant schedule management application that allows the user to manage their restaurant's reservations and tables. They are able to add new reservations to certain dates and times, as well as create tables with a desired capacity to seat their customers at.
 
-There are no user stories for logging: it is expected that you will add logging to the application with enough detail to help you diagnose issues in production.
+## Technologies Used
+### Front End
+- React.js
+- Bootstrap
+- CSS
 
-## Existing files
+### Back End
+- Node.js
+- Express.js
+- PostgreSQL 
+- Knex.js
 
-This repository is set up as a *monorepo*, meaning that the frontend and backend projects are in one repository. This allows you to open both projects in the same editor.
+## Installation
+1. Fork and clone this repository.
+2. Run `cp ./back-end/.env.sample ./back-end/.env`.
+3. Update the `./back-end/.env` file with the connection URL's to your ElephantSQL database instance.
+4. Run `cp ./front-end/.env.sample ./front-end/.env`.
+5. You should not need to make changes to the `./front-end/.env` file unless you want to connect to a backend at a location other than `http://localhost:5000`.
+6. Run `npm install` to install project dependencies.
+7. Run `npm run start:dev` to start your server in development mode.
 
-As you work through the user stories listed later in this document, you will be writing code that allows your frontend and backend applications to talk to each other. You will also write code to allow your controllers and services to connect to, and query, your PostgreSQL database via [Knex](http://knexjs.org/).
+## Running Tests
+Test are split up by user story. You can run the tests for a given user story by running:
 
-The table below describes the folders in this starter repository:
+`npm run test:X` where `X` is the user story number.
 
-| Folder/file path | Description                                                      |
-| ---------------- | ---------------------------------------------------------------- |
-| `./back-end`     | The backend project, which runs on `localhost:5001` by default.  |
-| `./front-end`    | The frontend project, which runs on `localhost:3000` by default. |
+Have a look at the following examples:
 
-This starter code closely follows the best practices and patterns established in the Robust Server Structure module.
+- `npm run test:1` runs all the tests for user story 1 (both frontend and backend).
+- `npm run test:3:backend` runs only the backend tests for user story 3.
+- `npm run test:3:frontend` runs only the frontend tests for user story 3.
 
-**Note**: Please do not submit a pull request to this repository with your solution.
+All Tests
+- `npm test runs` all tests.
+- `npm run test:backend` runs all backend tests.
+- `npm run test:frontend` runs all frontend tests.
+- `npm run test:e2e` runs only the end-to-end tests.
 
 ### Backend Existing files
 
