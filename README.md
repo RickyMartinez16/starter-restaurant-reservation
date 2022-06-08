@@ -64,7 +64,7 @@ Run `npx knex` commands from within the `back-end` folder, which is where the `k
 
 You can create a new reservation by selecting "New Reservation in the nav bar. This requires the customer's first name, last name, reservation date, reservation time, number of guests, and phone number.
 
-![Create Res Form] (/Users/rickymartinez/Desktop/Final Capstone/starter-restaurant-reservation/images/us-01-cancel-before.png)
+![Create Res Form](/images/us-01-cancel-before.png)
 
 # API
 
