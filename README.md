@@ -75,6 +75,18 @@ The dashboard will list the reservations for today. You can access future or pas
 
 ![dashboard](/images/us-06-dashboard-displays-status.png)
 
+## Searching for a Specific Reservation
+
+Using the "Search" button in the navigation users can search for a reservation via the mobile number associated with the reservation. 
+
+![searchByMobile](/images/us-07-search-reservations-submit-valid-after.png)
+
+## Managing Tables
+
+To help restaurants become more dynamic users have the ability to create new tables by selecting the 'New Table' option in the nav
+
+![newTable](/images/us-04-create-table-submit-before.png)
+
 
 # API
 
